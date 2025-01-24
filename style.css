@@ -6,7 +6,7 @@ body{
   html{
     font-size: 15px;
   }  
-   .whitebox {
+   .card {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -20,7 +20,7 @@ body{
     height: 28rem;
    }
 
-   .bluebox {  
+   .qr-code {  
     border-radius: 1rem;
     background-image: url("./images/image-qr-code.png");
     background-size: cover;
@@ -29,7 +29,7 @@ body{
     height: 15rem;
    }
    
-   #text1 {
+   #title {
     font-family: 'Outfit', serif;
     font-weight: 700;
     text-align: center;
@@ -39,7 +39,7 @@ body{
     
    }
 
-   #text2 {
+   #description {
     font-family: 'Outfit', serif;
     font-weight: 400;
     color:  hsl(216, 15%, 48%);
